@@ -62,6 +62,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001612292013'))
 
 # bot settings
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+9mJjrEZoA4s2Mjc1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+HNIchzVuVZ5mNTU0')
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '8080')
 MAX_BTN = int(environ.get('MAX_BTN', '10'))
